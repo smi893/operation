@@ -2,33 +2,19 @@
 remote_theme: "pages-themes/leap-day@2.0"
 
 # 网站基本信息
-title: "operation"
-description: "这是一个以 Jekyll 构建的漂亮网站！"
-baseurl: ""  # 如果你使用的是 GitHub Pages，通常需要设置为仓库名称
 
-# 主题设置
-theme: "beautiful-jekyll"
+- title: operation
+  url: introduction.html
 
-# 网站导航菜单
-navigation:
-  - title: "首页"
-    url: "/"
-  - title: "关于"
-    url: "/about"
-  - title: "联系我"
-    url: "/contact"
+- title: Configuration
+  url: configuration.html
 
-# 评论系统设置 (如果需要评论功能)
-disqus:
-  shortname: "你的disqus短名称"  # 请替换为你自己的 Disqus 短名称
-
-# 社交媒体链接
-social_links:
-  - title: "GitHub"
-    url: "https://github.com/smi893"  # 请替换为你的 GitHub 主页
-    icon: "github"
-
-# Jekyll 插件
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+- title: Deployment
+  url: deployment.html
+  
+  <h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
