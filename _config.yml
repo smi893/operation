@@ -1,3 +1,40 @@
-remote_theme:pages-themes/leap-day@2.0
+# 远程主题配置
+remote_theme: "pages-themes/leap-day@2.0"
+
+# 网站基本信息
 title: "operation"
-https://github.com/daattali/beautiful-jekyll.git
+description: "这是一个以 Jekyll 构建的漂亮网站！"
+baseurl: ""  # 如果你使用的是 GitHub Pages，通常需要设置为仓库名称
+
+# 主题设置
+theme: "beautiful-jekyll"
+
+# 网站导航菜单
+navigation:
+  - title: "首页"
+    url: "/"
+  - title: "关于"
+    url: "/about"
+  - title: "联系我"
+    url: "/contact"
+
+# 评论系统设置 (如果需要评论功能)
+disqus:
+  shortname: "你的disqus短名称"  # 请替换为你自己的 Disqus 短名称
+
+# 社交媒体链接
+social_links:
+  - title: "GitHub"
+    url: "https://github.com/你的用户名"  # 请替换为你的 GitHub 主页
+    icon: "github"
+  - title: "Twitter"
+    url: "https://twitter.com/你的用户名"  # 请替换为你的 Twitter 主页
+    icon: "twitter"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/你的用户名"  # 请替换为你的 LinkedIn 主页
+    icon: "linkedin"
+
+# Jekyll 插件
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
