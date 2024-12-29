@@ -16,8 +16,7 @@ navigation:
     url: "/"
   - title: "简介"
     url: "/introduction.html"  
-  - title: "联系我"
-    url: "/contact"
+
 
   
 # 评论系统配置（可选）
