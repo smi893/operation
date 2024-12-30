@@ -1,0 +1,24 @@
+# 远程主题配置
+remote_theme: pages-themes/leap-day@2.0
+
+# 网站基本信息
+title: "operation"
+description: "test from operation class"
+url: "https://smi893.github.io/operation/ " 
+baseurl: ""  
+
+# 网站的主题设置
+theme: "beautiful-jekyll"
+
+# 网站导航配置
+navigation:
+  - title: "首页"
+    url: "/"
+  - title: "简介"
+    url: "/introduction.html"  
+
+
+  
+# 评论系统配置（可选）
+disqus:
+  shortname: "你的disqus短名称"
